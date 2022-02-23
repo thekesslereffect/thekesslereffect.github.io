@@ -6,3 +6,11 @@
   --accent: #40644f;
   --accent-text: #dbeeca;
 }
+a:hover, a:visited, a:link, a:active {
+
+  text-decoration: none!important;
+  color:var(--secondary-text);
+
+  -webkit-box-shadow: none!important;
+  box-shadow: none!important;
+}
