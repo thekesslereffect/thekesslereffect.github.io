@@ -1,15 +1,15 @@
 :root {
-  --primary: #90b66f;
-  --primary-text: #081410;
-  --secondary: #081410;
-  --secondary-text: #dbeeca;
-  --accent: #40644f;
-  --accent-text: #dbeeca;
+  --primary: #b2beb2;
+  --primary-text: #242e30;
+  --secondary: #62756a;
+  --secondary-text: #e7eeea;
+  --accent: #242e30;
+  --accent-text: #b2beb2;
 }
 a:hover, a:visited, a:link, a:active {
 
   text-decoration: none!important;
-  color:var(--secondary-text);
+  color:var(--accent-text);
 
   -webkit-box-shadow: none!important;
   box-shadow: none!important;
