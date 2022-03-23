@@ -11,7 +11,7 @@
   "MAX_SUPPLY": 4444,
   "WEI_COST": 4440000000000000000,
   "DISPLAY_COST": 4.44,
-  "GAS_LIMIT": 2800000,
+  "GAS_LIMIT": 350000,
   "MARKETPLACE": "Opeansea",
   "MARKETPLACE_LINK": "https://opensea.io/collection/trashpandazclub",
   "SHOW_BACKGROUND": false
