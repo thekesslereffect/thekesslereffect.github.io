@@ -4,7 +4,6 @@ Moralis.start({serverUrl, appId});
 
 async function login(){
     let user = Moralis.User.current();
-
     if (!user){
         try {
             user = await Moralis.authenticate({signingMessage:"Authenticate"});

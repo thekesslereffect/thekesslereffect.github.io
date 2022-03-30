@@ -20,8 +20,8 @@ img {
     margin: 0 auto;
   
     /* Add empty space above the container (20% of the view height) */
-    margin-top: 20vh;
-   
+    margin-top: 10vh;
+    
   }
 .card {
     /* Change background color */
@@ -34,16 +34,18 @@ img {
     padding: 10px;
   
     border-radius: 20px;
+    
   }
 /* Style div elements that have class equal to tag */
 .auth {
-    padding: 4px 8px;
-   
+    padding: 8px;
+    margin: 4px;
     font-family: 'Questrial', sans-serif;
-    border-radius: 50px;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 300;
     color: #ffffff;
+    display: flex;
+    justify-content: end;
   }
   
   /* Style div elements that have class equal to name */
@@ -60,12 +62,14 @@ img {
     color: #7f8c9b;
     font-weight: 600;
     line-height: 150%;
+    
   }
   
   /* Style button element */
   button {
     border: none;
     padding: 12px 24px;
+    margin:10px;
     border-radius: 50px;
     font-family: 'Questrial', sans-serif;
     font-size: 20px;
@@ -75,57 +79,57 @@ img {
     background-image: linear-gradient(to right, rgb(190, 61, 250) , rgb(110, 52, 247));
   
     /* Button is inline-block element by default, it need to have block display for margin: 0 auto; to work */
-    margin: 0 auto;
+    /* margin: 0 auto; */
     /* display: block; */
   
     /* Button is a clickable element, therefore it should have a pointer cursor */
     cursor: pointer;
   }
+  .mint_button {
+    display: flex;
+    justify-content: end;
+  }
   
   .card__details {
     /* Add space around the details */
     padding: 16px 8px 8px 8px;
+    
+    
   }
 
   @media screen and (max-width: 1000px) {
       
     #container {
-        max-width: 75%;
-        margin-top: 10vh;
+        max-width: 50%;
+        margin-top: 5vh;
     }
     .name {
-        font-size: 50px;
+        font-size: 30px;
     }
     .card {
         padding:20px;
     }
     button {
-        font-size: 70px;
+        font-size: 20px;
         margin:20px;
         padding:20px;
         
-        
     }
-    .auth {
-        font-size: 50px;
-        margin:20px;
-        padding:20px;
-    }
+    
  }
  @media screen and (max-width: 600px) {
     #container {
-        max-width: 100%;
+        max-width: 75%;
+        margin-top: 5vh;
     }
     .card {
         padding:20px;
     }
     button {
-        font-size: 30px;
+        font-size: 20px;
         
     }
-    .auth {
-        font-size: 25px;
-    }
+    
  }
 
  
