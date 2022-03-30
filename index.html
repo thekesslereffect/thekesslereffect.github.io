@@ -3,11 +3,32 @@
         <title>TrashPandazClub X Moralis</title>
         <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
         <script src="https://unpkg.com/moralis/dist/moralis.js"></script>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <button id="btn-login">Login</button>
-        <button id="btn-logOut">Logout</button>
-        <button id="btn-mint">Mint</button>
+         <!-- A div with container id to hold the card -->
+        <div id="container">
+
+            <!-- A div with card class for the card  -->
+            <div class="card">
+            <img src="https://lh3.googleusercontent.com/QG2k21Dggh4FSCCMkOnID14dZTw6FTa_SJQ9vHDPnTAysAPQ2c1Cb9KgKIrso6lqTfe-TTN_6SkASA702PrerhcFTA6-lZfhHKkKjlg=s0" alt="Lago di Braies">
+            <!-- A div with card__details class to hold the details in the card  -->
+            <div class="card__details">
+                <!-- Span with tag class for the tag -->
+                <button id="btn-login" class="auth">Connect</button>
+                <button id="btn-logOut" class="auth">Disconnect</button>
+                <!-- A div with name class for the name of the card -->
+                <div class="name">TrashPandazClub</div>
+                <p>Connect first to allow Minting!</p>
+                
+                
+                <button id="btn-mint">Mint</button>
+            </div>
+            </div>
+        </div>
+
+
+        
         <script type="text/javascript" src="./main.js"></script>
     </body>
 </html>

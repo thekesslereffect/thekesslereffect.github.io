@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+body {
+    background-color: #eaeff1;
+    /* font-family: "AsepriteFont"; */
+    font-family: 'Questrial', sans-serif;
+  }
+img {
+    width: 100%;
+    border-radius: 12px;
+    /* height: width; */
+    object-fit: cover;
+  }
+#container {
+    max-width: 300px;
+  
+    /* Center the container in middle on horizontal axis */
+    margin: 0 auto;
+  
+    /* Add empty space above the container (20% of the view height) */
+    margin-top: 20vh;
+  }
+.card {
+    /* Change background color */
+    background-color: white;
+  
+    /* Add border */
+    /* border: 1px solid #bacdd8; */
+  
+    /* Add space between the border and the content */
+    padding: 8px;
+  
+    border-radius: 20px;
+  }
+/* Style div elements that have class equal to tag */
+.auth {
+    padding: 4px 8px;
+   
+    font-family: 'Questrial', sans-serif;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffffff;
+  }
+  
+  /* Style div elements that have class equal to name */
+  .name {
+    font-size: 24px;
+    font-weight: 900;
+  
+    margin-top: 16px;
+  }
+  
+  /* Style p element */
+  p {
+    font-size: 14px;
+    color: #7f8c9b;
+    font-weight: 600;
+    line-height: 150%;
+  }
+  
+  /* Style button element */
+  button {
+    border: none;
+    padding: 12px 24px;
+    border-radius: 50px;
+    font-family: 'Questrial', sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    /* background-color: #6f32fc; */
+    background-image: linear-gradient(to right, rgb(190, 61, 250) , rgb(110, 52, 247));
+  
+    /* Button is inline-block element by default, it need to have block display for margin: 0 auto; to work */
+    margin: 0 auto;
+    /* display: block; */
+  
+    /* Button is a clickable element, therefore it should have a pointer cursor */
+    cursor: pointer;
+  }
+  
+  .card__details {
+    /* Add space around the details */
+    padding: 16px 8px 8px 8px;
+  }
