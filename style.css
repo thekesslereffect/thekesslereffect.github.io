@@ -31,7 +31,7 @@ img {
     /* border: 1px solid #bacdd8; */
   
     /* Add space between the border and the content */
-    padding: 8px;
+    padding: 10px;
   
     border-radius: 20px;
   }
@@ -87,9 +87,37 @@ img {
     padding: 16px 8px 8px 8px;
   }
 
-  /* @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 1000px) {
+      
     #container {
         max-width: 75%;
+        margin-top: 10vh;
+    }
+    .name {
+        font-size: 50px;
+    }
+    .card {
+        padding:20px;
+    }
+    button {
+        font-size: 70px;
+        margin:20px;
+        padding:20px;
+        
+        
+    }
+    .auth {
+        font-size: 50px;
+        margin:20px;
+        padding:20px;
+    }
+ }
+ @media screen and (max-width: 600px) {
+    #container {
+        max-width: 100%;
+    }
+    .card {
+        padding:20px;
     }
     button {
         font-size: 30px;
@@ -99,17 +127,5 @@ img {
         font-size: 25px;
     }
  }
- @media screen and (max-width: 600px) {
-    #container {
-        max-width: 100%;
-    }
-    button {
-        font-size: 30px;
-        
-    }
-    .auth {
-        font-size: 25px;
-    }
- } */
 
  
