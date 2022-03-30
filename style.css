@@ -3,7 +3,6 @@
 
 body {
     background-color: #eaeff1;
-    /* font-family: "AsepriteFont"; */
     font-family: 'Questrial', sans-serif;
   }
 img {
@@ -13,13 +12,16 @@ img {
     object-fit: cover;
   }
 #container {
-    max-width: 300px;
+    
+    min-width:300px;
+    max-width: 500px;
   
     /* Center the container in middle on horizontal axis */
     margin: 0 auto;
   
     /* Add empty space above the container (20% of the view height) */
     margin-top: 20vh;
+   
   }
 .card {
     /* Change background color */
@@ -85,9 +87,9 @@ img {
     padding: 16px 8px 8px 8px;
   }
 
-  @media screen and (max-width: 900px) {
+  /* @media screen and (max-width: 1000px) {
     #container {
-        max-width: 50%;
+        max-width: 75%;
     }
     button {
         font-size: 30px;
@@ -108,6 +110,6 @@ img {
     .auth {
         font-size: 25px;
     }
- }
+ } */
 
  
